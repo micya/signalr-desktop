@@ -17,7 +17,7 @@ namespace client
                 Console.WriteLine($"{user}: {message}");
             });
 
-            Console.WriteLine("Enter username:");
+            Console.Write("Enter username: ");
             var username = Console.ReadLine();
 
             Console.WriteLine("Connecting to chat server...");
